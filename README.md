@@ -1,12 +1,12 @@
 # All-Angles-Bench
 Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 
-[Chun-Hsiao Yeh](https://danielchyeh.github.io/), Chenyu Wang, [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Zhengxin Li](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/).
-
-**1UC Berkeley, 2TranscEngram, 3NYU, 4University of Oxford, 5UC Davis, 6HKU**
+[Chun-Hsiao Yeh*](https://danielchyeh.github.io/), [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en), [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yubei Chen](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/).
 
 -----
 <a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>  
+<a href="https://huggingface.co/collections/tianzhechu/sftvsrl-models-and-data-6797ba6de522c7de7fcb80ba">
+    <img alt="HF Model: Cambrian-1" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-Checkpoints&Data-ffc107?color=ffc107&logoColor=white"/></a>
 
 This repository hosts the code, data and model weight of **MLLM-Tool**, the first tool agent MLLM that has the ability to perceive visual- and auditory- input information and recommend appropriate tools for multi-modal instructions.
 
