@@ -251,17 +251,17 @@ The prediction output would save in the format of JSON under the path [data/infe
 
 ## Contact
 
-For any questions or feedback, feel free to contact [Chenyu Wang](wangchy8@shanghaitech.edu.cn).
+For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@berkeley.edu) and [Chenyu Wang](chenyuwang5562@gmail.com).
 
 ## Citation
 
- If you find MLLM-Tool useful in your research or applications, please kindly cite:
+ If you find All-Angles Bench useful in your research or applications, please kindly cite:
 ```
-@article{wang2024mllmtool,
-  title={MLLM-Tool: A Multimodal Large Language Model For Tool Agent Learning},
-  author={Chenyu Wang and Weixin Luo and Qianyu Chen and Haonan Mai and  Jindi Guo and Sixun Dong and Xiaohua (Michael) Xuan and Zhengxin  Li and Lin Ma and Shenghua Gao},
+@article{yeh2025seeing,
+  title={Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs},
+  author={Chun-Hsiao Yeh, Chenyu Wang, Shengbang Tong, Ta-Ying Cheng, Rouyu Wang, Tianzhe Chu, Yuexiang Zhai, Yubei Chen, Shenghua Gao and Yi Ma},
   journal={arXiv preprint arXiv:2401.10727},
-  year={2024}
+  year={2025}
 }
 ```
 
@@ -270,11 +270,7 @@ For any questions or feedback, feel free to contact [Chenyu Wang](wangchy8@shang
 
 ## Acknowledgements
 You may refer to related work that serves as foundations for our framework and code repository, 
-[Vicuna](https://github.com/lm-sys/FastChat), 
-[Llama](https://github.com/facebookresearch/llama),
-[Llama2](https://github.com/facebookresearch/llama),
-[Llama2-Chat](https://github.com/facebookresearch/llama),
-[ImageBind](https://github.com/facebookresearch/ImageBind), 
+[VLMEvalKit](https://github.com/open-compass/VLMEvalKit). 
 We also partially draw inspiration from 
 [PandaGPT](https://github.com/yxuansu/PandaGPT), 
 [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4),
@@ -286,7 +282,7 @@ Thanks for their wonderful work.
 
 ## License Notices
 This repository is under MIT License.
-MLLM-Tool is a research project intended for non-commercial use only. 
-One must NOT use the code of MLLM-Tool for any illegal, harmful, violent, racist, or sexual purposes. 
+All-Angles Bench is a research project intended for non-commercial use only. 
+One must NOT use the code of All-Angles Bench for any illegal, harmful, violent, racist, or sexual purposes. 
 One is strictly prohibited from engaging in any activity that will potentially violate these guidelines.
 Any potential commercial use of this code should be approved by the authors.
