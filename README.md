@@ -20,23 +20,14 @@ Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 -----------
 
 ## 🎉 News 
-- [x] [2024.02.02] 📢📢 We change the permissions for data and checkpoints, no longer need to apply to download them.
-- [x] [2024.01.16] 🚀🚀 Release the code of MLLM-Tool.
-- [x] [2024.03.13] 🔨🧩 Release the All-Angles Benchmark.
-- [x] [2024.03.13] 📢📢 Release the checkpoint of MLLM-Tool in Vicuna-7B, Vicuna-13B, Llama-7B, Llama-13B, Llama2-7B, Llama2-13B, Llama2Chat-7B, Llama2Chat-13B.
-
-## 👉 TODO 
-- [ ] Collect more data and release the v2 dataset.
-- [ ] Update MLLM-Tool in more types & sizes of LLMs.
-- [ ] Empower MLLM-Tool with retrieving open-set tools.
-- [ ] Release Demo and Interactive Website.
-- [ ] ...
-
+- [x] [2025.03.13] 📢📢 Release the All-Angles Benchmark on HuggingFace.
+- [x] [2025.03.13] 📢📢 Release the evaluation code on Github.
 
 -----------
 
 ## Brief Introduction
-Recently, the astonishing performance of large language models (LLMs) in natural language comprehension and generation tasks triggered lots of exploration of using them as central controllers to build agent systems. Multiple studies focus on bridging the LLMs to external tools to extend the application scenarios. However, the current LLMs' perceiving tool-use ability is limited to a single text query, which may result in ambiguity in understanding the users' real intentions. LLMs are expected to eliminate that by perceiving the visual- or auditory-grounded instructions' information. Therefore, in this paper, we propose MLLM-Tool, a system incorporating open-source LLMs and multimodal encoders so that the learned LLMs can be conscious of multi-modal input instruction and then select the function-matched tool correctly. To facilitate the evaluation of the model’s capability, we collect a dataset featured by consisting of multi-modal input tools from HuggingFace. Another important feature of our dataset is that our dataset also contains multiple potential choices for the same instruction due to the existence of identical functions and synonymous functions, which provides more potential solutions for the same query. The experiments reveal that our MLLM-Tool is capable of recommending appropriate tools for multi-modal instructions. 
+
+**Benchmark Overview:** We introduce All-Angles Bench, a benchmark designed to evaluate the multi-view reasoning capabilities of MLLMs, containing <b>2,132</b> question-answer pairs carefully annotated across <b>90</b> diverse real-world scenes sourced from EGO4D-EXO and EgoHumans. All-Angles Bench comprises six challenging tasks including <b><i>counting, attribute identification, relative distance, relative direction, manipulation, and camera pose estimation</i></b>.These question types are designed to investigate several major aspects of 3D scene understanding, from creating correspondence between objects to associating relative object and camera poses.
 
 
 <span id='Usage'/>
