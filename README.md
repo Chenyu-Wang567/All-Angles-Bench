@@ -6,9 +6,9 @@ Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 -----
 <a href='https://next-gpt.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>  
-<a href='#'><img src='https://img.shields.io/badge/Arxiv-purple'></a> 
+<a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Arxiv-Page-purple'></a> 
 <a href="https://huggingface.co/collections/tianzhechu/sftvsrl-models-and-data-6797ba6de522c7de7fcb80ba">
-    <img src="https://img.shields.io/badge/HuggingFace-orange></a>
+    <img src="https://img.shields.io/badge/Benchmark-orange></a>
 
 
 📌 **A Benchmark for Multi-View Understanding:** We introduce <i>All-Angles Bench</i>, a large-scale benchmark with over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
