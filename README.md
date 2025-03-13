@@ -11,6 +11,13 @@ Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 This repository hosts the code, data and model weight of **MLLM-Tool**, the first tool agent MLLM that has the ability to perceive visual- and auditory- input information and recommend appropriate tools for multi-modal instructions.
 
 
+📌 A Benchmark for Multi-View Understanding: We introduce <i>All-Angles Bench</i>, a large-scale benchmark with over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
+
+📊 Performance Evaluation: We benchmark 27 leading MLLMs, including Gemini-2.0-Flash, Claude-3.7-Sonnet, and GPT-4o. Our results reveal a substantial gap between MLLMs and human.
+
+🔍 Decoding MLLM Shortcomings: We identify two major failure modes in MLLMs: (1) weak cross-view correspondence under occlusions and (2) poor estimation of coarse camera poses.
+
+
 -----------
 
 ## 🎉 News 
