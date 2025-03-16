@@ -1,11 +1,11 @@
 # Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 
 
-[Chun-Hsiao Yeh*](https://danielchyeh.github.io/)<sup>1</sup>, [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en)<sup>2</sup>, [Shengbang Tong](https://tsb0601.github.io/)<sup>3</sup>, [Ta-Ying Cheng](https://ttchengab.github.io/)<sup>4</sup>, [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ)<sup>2</sup>, [Tianzhe Chu](https://tianzhechu.com/)<sup>6</sup>, [Yuexiang Zhai](https://yx-s-z.github.io/)<sup>1</sup>, [Yubei Chen](https://yubeichen.com/)<sup>5</sup>, [Shenghua Gao](https://svip-lab.github.io/)<sup>2,6</sup>, [Yi Ma](https://people.eecs.berkeley.edu/~yima/)<sup>1,2,6</sup>.
+[Chun-Hsiao Yeh*](https://danielchyeh.github.io/), [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en), [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yubei Chen](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/).(*Equal Contribution)
 
-<sup>1</sup>UC Berkeley, <sup>2</sup>TranscEngram, <sup>3</sup>NYU, <sup>4</sup>University of Oxford, <sup>5</sup>UC Davis, <sup>6</sup>HKU
+UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
-(*Equal Contribution)
+
 
 -----
 <a href='https://next-gpt.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
