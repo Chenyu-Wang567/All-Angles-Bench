@@ -14,7 +14,7 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 <a href="https://huggingface.co/collections/tianzhechu/sftvsrl-models-and-data-6797ba6de522c7de7fcb80ba"><img src='https://img.shields.io/badge/Data-HuggingFace-red'></a>
 
 <p align="center" width="100%">
-<a target="_blank"><img src="static/figure-teaser.pdf" alt="teaser" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="static/figure-teaser.png" alt="teaser" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 📌 **A Benchmark for Multi-View Understanding:** We introduce <i>All-Angles Bench</i>, a large-scale benchmark with over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
