@@ -20,11 +20,11 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 <a target="_blank"><img src="static/figure-teaser.png" alt="teaser" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
-📌 **A Benchmark for Multi-View Understanding:** We introduce <i>All-Angles Bench</i>, a large-scale benchmark with over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
+📌 **A Benchmark for Multi-View Understanding:**  We present <i>All-Angles Bench</i>, a comprehensive benchmark featuring over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
 
-📊 **Performance Evaluation:** We benchmark 27 leading MLLMs, including Gemini-2.0-Flash, Claude-3.7-Sonnet, and GPT-4o. Our results reveal a substantial gap between MLLMs and human.
+📊 **Performance Evaluation:** We evaluate 27 state-of-the-art MLLMs, including Gemini-2.0-Flash, Claude-3.7-Sonnet, and GPT-4o. Our findings highlight a significant performance gap between MLLMs and human-level understanding.
 
-🔍 **Decoding MLLM Shortcomings:** We identify two major failure modes in MLLMs: (1) weak cross-view correspondence under occlusions and (2) poor estimation of coarse camera poses.
+🔍 **Decoding MLLM Shortcomings:** We pinpoint two primary failure modes in MLLMs: (1) inadequate cross-view correspondence in the presence of occlusions and (2) inaccurate estimation of rough camera poses.
 
 
 ## 🎉 News 
@@ -33,9 +33,9 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 
 ## To Do List
-- [ ] Evaluation Code Release
-- [x] All-Angles Benchmark Release
-- [x] Project Page & Technical Report
+- [ ] Release Evaluation Code 
+- [x] Release All-Angles Benchmark
+- [x] Release Project Page & Technical Report
 
 
 ## All-Angles Bench
