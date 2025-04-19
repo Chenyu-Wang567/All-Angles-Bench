@@ -14,7 +14,7 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 <a href='https://danielchyeh.github.io/All-Angles-Bench/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>  
 <a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Arxiv-Page-purple'></a> 
-<a href="https://huggingface.co/collections/tianzhechu/sftvsrl-models-and-data-6797ba6de522c7de7fcb80ba"><img src='https://img.shields.io/badge/Data-HuggingFace-red'></a>
+<a href="https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench"><img src='https://img.shields.io/badge/Data-HuggingFace-red'></a>
 
 <p align="center" width="100%">
 <a target="_blank"><img src="static/figure-teaser.png" alt="teaser" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
