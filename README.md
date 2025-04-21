@@ -34,7 +34,7 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 ## To Do List
 - [ ] Release Evaluation Code 
-- [x] Release All-Angles Benchmark
+- [ ] Release All-Angles Benchmark
 - [x] Release Project Page & Technical Report
 
 
