@@ -33,8 +33,9 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 
 ## To Do List
-- [ ] Release Evaluation Code 
-- [ ] Release All-Angles Benchmark
+- [ ] Release Evaluation Code
+- [x] Release the process scripts of the part of All-Angles Benchmark sourced from Ego-Exo4D Dataset
+- [x] Release the part of All-Angles Benchmark sourced from EgoHumans Dataset
 - [x] Release Project Page & Technical Report
 
 
@@ -44,6 +45,8 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 </p>
 
 **Benchmark Overview:** We introduce All-Angles Bench, a benchmark designed to evaluate the multi-view reasoning capabilities of MLLMs, containing <b>2,132</b> question-answer pairs carefully annotated across <b>90</b> diverse real-world scenes sourced from EGO4D-EXO and EgoHumans. All-Angles Bench comprises six challenging tasks including <b><i>counting, attribute identification, relative distance, relative direction, manipulation, and camera pose estimation</i></b>.These question types are designed to investigate several major aspects of 3D scene understanding, from creating correspondence between objects to associating relative object and camera poses.
+
+You can directly download the extracted image files sourced from the EgoHumans Dataset. For the Ego-Exo4D Dataset, due to licensing restrictions, you will need to first sign the license agreement from the official [Ego-Exo4D repository](https://ego4ddataset.com/egoexo-license/). After signing the license, you can download the dataset in 448 resolution and then use the [preprocessing scripts](data/) to extract the corresponding images referenced in the json file.
 
 
 ## Contact
