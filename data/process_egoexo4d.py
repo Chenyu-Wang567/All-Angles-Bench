@@ -69,7 +69,7 @@ if __name__ == "__main__":
     
     input_path = "./datasets/ego4d/ego-exo4d/takes"
     output_root = "./extracted_frames_huggingface"
-    destination_root = "./egoexo4dscenes"
+    destination_root = "./ego_exo4d_scenes"
 
     process_subfolders(input_path, folder_list, output_root)
     print("Processing frames extraction completed!")
