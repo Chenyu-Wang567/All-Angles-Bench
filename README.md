@@ -12,8 +12,8 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 -----
 <a href='https://danielchyeh.github.io/All-Angles-Bench/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>  
-<a href='https://arxiv.org/pdf/2401.10727'><img src='https://img.shields.io/badge/Arxiv-Page-purple'></a> 
+<a href='https://arxiv.org/abs/2504.15280'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>  
+<a href='https://arxiv.org/pdf/2504.15280'><img src='https://img.shields.io/badge/Arxiv-Page-purple'></a> 
 <a href="https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench"><img src='https://img.shields.io/badge/Data-HuggingFace-red'></a>
 
 <p align="center" width="100%">
@@ -46,7 +46,7 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 **Benchmark Overview:** We introduce All-Angles Bench, a benchmark designed to evaluate the multi-view reasoning capabilities of MLLMs, containing <b>2,132</b> question-answer pairs carefully annotated across <b>90</b> diverse real-world scenes sourced from EGO4D-EXO and EgoHumans. All-Angles Bench comprises six challenging tasks including <b><i>counting, attribute identification, relative distance, relative direction, manipulation, and camera pose estimation</i></b>.These question types are designed to investigate several major aspects of 3D scene understanding, from creating correspondence between objects to associating relative object and camera poses.
 
-You can directly download the extracted image files sourced from the EgoHumans Dataset. For the Ego-Exo4D Dataset, due to licensing restrictions, you will need to first sign the license agreement from the official [Ego-Exo4D repository](https://ego4ddataset.com/egoexo-license/). After signing the license, you can download the dataset in 448 resolution and then use the [preprocessing scripts](data/process_egoexo4d.py) to extract the corresponding images referenced in the json file.
+You can directly download the extracted image files sourced from the EgoHumans Dataset. For the Ego-Exo4D Dataset, due to licensing restrictions, you will need to first sign the license agreement from the official [Ego-Exo4D repository](https://ego4ddataset.com/egoexo-license/). After signing the license, you can download the [dataset in 448 resolution](https://docs.ego-exo4d-data.org/download/data/downscaled_takes/) and then use the [preprocessing scripts](data/process_egoexo4d.py) to extract the corresponding images referenced in the json file.
 
 
 ## Contact
@@ -60,7 +60,7 @@ For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@
 @article{yeh2025seeing,
   title={Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs},
   author={Chun-Hsiao Yeh, Chenyu Wang, Shengbang Tong, Ta-Ying Cheng, Rouyu Wang, Tianzhe Chu, Yuexiang Zhai, Yubei Chen, Shenghua Gao and Yi Ma},
-  journal={arXiv preprint arXiv:2401.10727},
+  journal={arXiv preprint arXiv:2504.15280},
   year={2025}
 }
 ```
