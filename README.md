@@ -59,7 +59,7 @@ For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@
 ```
 @article{yeh2025seeing,
   title={Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs},
-  author={Chun-Hsiao Yeh, Chenyu Wang, Shengbang Tong, Ta-Ying Cheng, Rouyu Wang, Tianzhe Chu, Yuexiang Zhai, Yubei Chen, Shenghua Gao and Yi Ma},
+  author={Chun-Hsiao Yeh, Chenyu Wang, Shengbang Tong, Ta-Ying Cheng, Ruoyu Wang, Tianzhe Chu, Yuexiang Zhai, Yubei Chen, Shenghua Gao and Yi Ma},
   journal={arXiv preprint arXiv:2504.15280},
   year={2025}
 }
