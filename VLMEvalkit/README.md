@@ -51,7 +51,12 @@ torchrun --nproc-per-node=4 run.py --data All_Angles_Bench --model Qwen2.5-VL-3B
 The evaluation results would be shown on both terminal and under `outputs/Qwen2.5-VL-3B-Instruct/` as csv file.
 
 
-**Note:** You can also switch the `--model` augment to `Qwen2.5-VL-7B-Instruct`, `InternVL2_5-4B`, `Ovis2-4B` as examples if you are under `vlm_eval_qwen2s` environment. Please check `vlmeval/config.py` for more supported MLLM series listed.
+**Note:** You can also switch the `--model` argument to other supported MLLMs such as `Qwen2.5-VL-7B-Instruct`, `InternVL2_5-4B`, or `Ovis2-4B` when using the `vlm_eval_qwen2s` environment. Please check `vlmeval/config.py` to select more MLLMs. 
+
+We currently support the following MLLM series:  
+`Qwen2.5-VL` series, `InternVL2.5` series, `Ovis2` series, `Deepseek-VL2` series, `Cambrian` series, `LLaVA-OneVision` series, and `LLaVA-Video-Qwen2` series.
+
+For detailed configuration instructions, please refer to [VLMEvalKit](https://github.com/open-compass/VLMEvalKit/tree/main).
 
 
 ## 🌟 Citation
