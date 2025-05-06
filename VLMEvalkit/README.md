@@ -21,13 +21,15 @@ To complete the full preprocessing pipeline required for benchmark evaluation, v
 ## **🛠️ Step2: Install Recommended Conda Environments for Open-Sourced MLLMs:**
 Note that some MLLMs may not be able to run under certain environments, we recommend the following conda environment settings under separate groups to evaluate corresponding MLLMs:
 
-- **Please use** `envs/vlm_eval_qwen2s.yml` **for**: `Qwen2.5-VL series`, `InternVL2.5 series`, `Ovis2 series`.
+- **Please use** `envs/vlm_eval_qwen2s.yml` **for**: `Qwen2.5-VL series`, `InternVL2.5 series`, `Ovis2 series`, `LLaVA-OneVision` series, and `LLaVA-Video-Qwen2` series.
 - **Please use** `envs/vlm_eval_deepseek.yml` **for**: `Deepseek-VL2 series`.
 - **Please use** `envs/vlm_eval_cambrian.yml` **for**: `Cambrian series`.
 
+After installing above certain environments, **please use** `pip install flash-attn --no-build-isolation` to evaluate. 
+
 Below are instruction examples for creating the conda environment that you prefer
 ```bash
-# For Qwen2.5-VL, InternVL2.5, Ovis2..
+# For Qwen2.5-VL, InternVL2.5, Ovis2, LLaVA-OneVision, LLaVA-Video-Qwen2..
 conda env create -f envs/vlm_eval_qwen2s.yml && conda activate vlm_eval_qwen2s
 
 # For Deepseek-VL2..
