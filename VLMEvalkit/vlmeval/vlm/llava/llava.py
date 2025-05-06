@@ -9,6 +9,10 @@ from ...dataset import DATASET_TYPE, DATASET_MODALITY
 import copy
 import requests
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+target_dir = os.path.join(current_dir, 'LLaVA-NeXT')
+sys.path.append(os.path.abspath(target_dir))
+
 
 class LLaVA(BaseModel):
 
