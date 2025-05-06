@@ -50,7 +50,7 @@
 
 
 ## 🏆 [**Evaluation on All-Angles Bench:**](/VLMEvalkit/) 
-You can evaluate our All-Angles Bench benchmark using our extended VLMEvalKit platform. Full setup instructions and evaluation scripts are provided in our repository.
+You can evaluate our All-Angles Bench using our extended VLMEvalKit platform. Full setup instructions and evaluation scripts are provided in our repository.
 
 
 ## Contact
