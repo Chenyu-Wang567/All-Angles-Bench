@@ -1,10 +1,10 @@
 
 # 🔥 📊 QuickStart 📊 🔥
-# Use VLMEvalKit to Evaluate Open-Sourced MLLMs on All-Angles-Bench 
-We adopt and extend [VLMEvalKit](https://github.com/open-compass/VLMEvalKit/tree/main) to support our All-Angles-Bench. Below we list step-by-step instructions to clone benchmark and setup the recommended conda environments for evaluating different MLLMs. Some MLLMs may fail under mismatched CUDA/PyTorch or transformers versions, so we recommend isolating each group in its own environment.
+# Use VLMEvalKit to Evaluate Open-Sourced MLLMs on All-Angles Bench 
+We adopt and extend [VLMEvalKit](https://github.com/open-compass/VLMEvalKit/tree/main) to support our All-Angles Bench. Below we list step-by-step instructions to clone benchmark and setup the recommended conda environments for evaluating different MLLMs. Some MLLMs may fail under mismatched CUDA/PyTorch or transformers versions, so we recommend isolating each group in its own environment.
 
 
-## **🤗 Step 1: Clone All-Angles-Bench from HuggingFace Hub**
+## **🤗 Step 1: Clone All-Angles Bench from HuggingFace Hub**
 To begin, clone the benchmark locally under VLMEvalkit.
 ```bash
 $ conda install git-lfs
@@ -15,30 +15,30 @@ $ git lfs clone https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench
 ```
 🔥🔥 **[Important]** 🔥🔥 
 
-To complete the full preprocessing pipeline required for benchmark evaluation, visit the [**All-Angles-Bench on HuggingFace🤗**](https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench) and follow the steps.
+To complete the full preprocessing pipeline required for benchmark evaluation, visit the [**All-Angles Bench on HuggingFace🤗**](https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench) and follow the steps.
 
 
 ## **🛠️ Step2: Install Recommended Conda Environments for Open-Sourced MLLMs:**
 Note that some MLLMs may not be able to run under certain environments, we recommend the following conda environment settings under separate groups to evaluate corresponding MLLMs:
 
 - **Please use** `envs/vlm_eval_qwen2s.yml` **for**: `Qwen2.5-VL series`, `InternVL2.5 series`, `Ovis2 series`.
-- **Please use** `envs/vlm_eval_deepseek.yml` **for**: `deepseek-VL2 series`.
-- **Please use** `envs/vlm_eval_cambrian.yml` **for**: `cambrian series`.
+- **Please use** `envs/vlm_eval_deepseek.yml` **for**: `Deepseek-VL2 series`.
+- **Please use** `envs/vlm_eval_cambrian.yml` **for**: `Cambrian series`.
 
 Below are instruction examples for creating the conda environment that you prefer
 ```bash
-# For Qwen2.5, InternVL2.5, Ovis2..
+# For Qwen2.5-VL, InternVL2.5, Ovis2..
 conda env create -f envs/vlm_eval_qwen2s.yml && conda activate vlm_eval_qwen2s
 
-# For deepseek-VL2..
+# For Deepseek-VL2..
 conda env create -f envs/vlm_eval_deepseek.yml && conda activate vlm_eval_deepseek
 
-# For cambrian..
+# For Cambrian..
 conda env create -f envs/vlm_eval_cambrian.yml && conda activate vlm_eval_cambrian
 ```
 
 
-## **📝 Step3: Evaluate MLLMs on All-Angles-Bench:**
+## **📝 Step3: Evaluate MLLMs on All-Angles Bench:**
 
 Once your environment is ready, launch the evaluation using:
 ```bash
