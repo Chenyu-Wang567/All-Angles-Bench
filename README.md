@@ -1,13 +1,14 @@
 <h1>
-  <img src="static/all-angles-bench-icon.png" alt="Icon" style="height: 24px; vertical-align: middle;"/>
+  <img src="static/all-angles-bench-icon.png" alt="Icon" style="height: 64px; vertical-align: middle;"/>
   Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
 </h1>
 
 
-[Chun-Hsiao Yeh*](https://danielchyeh.github.io/), [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en), [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yubei Chen](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/).(*Equal Contribution)
+#### [Chun-Hsiao Yeh*](https://danielchyeh.github.io/), [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en), [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yubei Chen](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [and Yi Ma](https://people.eecs.berkeley.edu/~yima/)
 
-UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
+#### **UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, and HKU**
 
+#### (*Equal Contribution)
 
 
 -----
@@ -17,7 +18,7 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 <a href="https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench"><img src='https://img.shields.io/badge/Data-HuggingFace-red'></a>
 
 <p align="center" width="100%">
-<a target="_blank"><img src="static/figure-teaser.png" alt="teaser" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="static/figure-teaser.png" alt="teaser" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 📌 **A Benchmark for Multi-View Understanding:**  We present <i>All-Angles Bench</i>, a comprehensive benchmark featuring over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
@@ -28,12 +29,13 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 
 ## 🎉 News 
-- [x] [2025.04] 📢📢 Release the All-Angles Benchmark on HuggingFace.
-- [x] [2025.04] 📢📢 Upload paper and init project.
+- **[2025.05]** 🔥🔥🔥 Release the [**Evaluation Code**](/VLMEvalkit/) on All-Angles Bench 
+- **[2025.04]** 📢📢📢 Release the All-Angles Benchmark on HuggingFace 🤗
+- **[2025.04]** 📢📢📢 Release arXiv paper and init project
 
 
 ## To Do List
-- [ ] Release Evaluation Code
+- [x] **[NEW]** Release Evaluation Code
 - [x] Release the process scripts of the part of All-Angles Benchmark sourced from Ego-Exo4D Dataset
 - [x] Release the part of All-Angles Benchmark sourced from EgoHumans Dataset
 - [x] Release Project Page & Technical Report
@@ -41,21 +43,24 @@ UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, HKU
 
 ## All-Angles Bench
 <p align="center" width="100%">
-<a target="_blank"><img src="static/figure-all-angles-bench.png" alt="all-angles-bench" style="width: 90%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="static/figure-all-angles-bench.png" alt="all-angles-bench" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 **Benchmark Overview:** We introduce All-Angles Bench, a benchmark designed to evaluate the multi-view reasoning capabilities of MLLMs, containing <b>2,132</b> question-answer pairs carefully annotated across <b>90</b> diverse real-world scenes sourced from EGO4D-EXO and EgoHumans. All-Angles Bench comprises six challenging tasks including <b><i>counting, attribute identification, relative distance, relative direction, manipulation, and camera pose estimation</i></b>.These question types are designed to investigate several major aspects of 3D scene understanding, from creating correspondence between objects to associating relative object and camera poses.
 
-You can directly download the extracted image files sourced from the EgoHumans Dataset. For the Ego-Exo4D Dataset, due to licensing restrictions, you will need to first sign the license agreement from the official [Ego-Exo4D repository](https://ego4ddataset.com/egoexo-license/). After signing the license, you can download the [dataset in 448 resolution](https://docs.ego-exo4d-data.org/download/data/downscaled_takes/) and then use the [preprocessing scripts](data/process_egoexo4d.py) to extract the corresponding images referenced in the json file.
+
+## 🏆 [**Evaluation on All-Angles Bench:**](/VLMEvalkit/) 
+You can evaluate our All-Angles Bench using our extended VLMEvalKit platform. Full setup instructions and evaluation scripts are provided in our repository.
 
 
 ## Contact
 
 For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@berkeley.edu) and [Chenyu Wang](chenyuwang5562@gmail.com).
 
-## Citation
 
- If you find All-Angles Bench useful in your research or applications, please kindly cite:
+## 🌟 Citation
+
+ If you find All-Angles Bench useful in your research tasks or applications, please consider to give **star🌟** and kindly cite:
 ```
 @article{yeh2025seeing,
   title={Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs},
@@ -69,7 +74,7 @@ For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@
 
 
 ## Acknowledgements
-You may refer to related work that serves as foundations for our framework and code repository, 
+You may refer to related works that serve as foundations for our database and code repository, 
 [EgoHumans](https://github.com/rawalkhirodkar/egohumans),
 [Ego-Exo4D](https://github.com/facebookresearch/Ego4d),
 [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
