@@ -25,8 +25,6 @@ Note that some MLLMs may not be able to run under certain environments, we recom
 - **Please use** `envs/vlm_eval_deepseek.yml` **for**: `Deepseek-VL2 series`.
 - **Please use** `envs/vlm_eval_cambrian.yml` **for**: `Cambrian series`.
 
-After installing above certain environments, **please use** `pip install flash-attn --no-build-isolation` to evaluate. 
-
 Below are instruction examples for creating the conda environment that you prefer
 ```bash
 # For Qwen2.5-VL, InternVL2.5, Ovis2, LLaVA-OneVision, LLaVA-Video-Qwen2..
