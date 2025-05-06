@@ -29,13 +29,13 @@
 
 
 ## 🎉 News 
-- **[2025.05]** 🔥🔥🔥 Release the [**Evaluation Code**](/VLMEvalkit/) on All-Angles-Bench 🔥🔥🔥
-- **[2025.04]** 📢📢 Release the All-Angles Benchmark on HuggingFace 🤗
-- **[2025.04]** 📢📢 Release arXiv paper and init project
+- **[2025.05]** 🔥🔥🔥 Release the [**Evaluation Code**](/VLMEvalkit/) on All-Angles Bench 
+- **[2025.04]** 📢📢📢 Release the All-Angles Benchmark on HuggingFace 🤗
+- **[2025.04]** 📢📢📢 Release arXiv paper and init project
 
 
 ## To Do List
-- [x] 🆕 Release Evaluation Code
+- [x] **[NEW]** Release Evaluation Code
 - [x] Release the process scripts of the part of All-Angles Benchmark sourced from Ego-Exo4D Dataset
 - [x] Release the part of All-Angles Benchmark sourced from EgoHumans Dataset
 - [x] Release Project Page & Technical Report
