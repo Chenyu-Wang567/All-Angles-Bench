@@ -3,8 +3,6 @@ from PIL import Image
 from .base import BaseModel
 from ..smp import *
 import warnings
-import sys
-sys.path.append('/public/project/wangchy/VLMEvalKit/vlmeval/vlm/VideoLLaMA3/videollama3')
 
 IMAGE_TOKEN_INDEX = -200
 DEFAULT_IMAGE_TOKEN = '<image>'
