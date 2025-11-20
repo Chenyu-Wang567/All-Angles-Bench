@@ -1,12 +1,12 @@
 <h1>
   <img src="static/all-angles-bench-icon.png" alt="Icon" style="height: 64px; vertical-align: middle;"/>
-  Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs
+  Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs (AAAI 2026)
 </h1>
 
 
 #### [Chun-Hsiao Yeh*](https://danielchyeh.github.io/), [Chenyu Wang*](https://scholar.google.com/citations?user=ZkCLeicAAAAJ&hl=en), [Shengbang Tong](https://tsb0601.github.io/), [Ta-Ying Cheng](https://ttchengab.github.io/), [Ruoyu Wang](https://scholar.google.com/citations?user=V5H0P28AAAAJ), [Tianzhe Chu](https://tianzhechu.com/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yubei Chen](https://yubeichen.com/), [Shenghua Gao](https://svip-lab.github.io/), [and Yi Ma](https://people.eecs.berkeley.edu/~yima/)
 
-#### **UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, and HKU**
+#### **UC Berkeley, TranscEngram, NYU, University of Oxford, UC Davis, LSAI, and HKU**
 
 #### (*Equal Contribution)
 
@@ -29,6 +29,7 @@
 
 
 ## 🎉 News 
+- **[2025.11]** 🔥🔥 All-Angles Bench is accepted to AAAI 2026!
 - **[2025.05]** 🔥🔥🔥 Release the [**Evaluation Code**](/VLMEvalkit/) on All-Angles Bench 
 - **[2025.04]** 📢📢📢 Release the All-Angles Benchmark on HuggingFace 🤗
 - **[2025.04]** 📢📢📢 Release arXiv paper and init project
