@@ -23,7 +23,7 @@
 
 📌 **A Benchmark for Multi-View Understanding:**  We present <i>All-Angles Bench</i>, a comprehensive benchmark featuring over 2,100 human-annotated multi-view QA pairs across 90 real-world scenes.
 
-📊 **Performance Evaluation:** We evaluate 27 state-of-the-art MLLMs, including Gemini-2.0-Flash, Claude-3.7-Sonnet, and GPT-4o. Our findings highlight a significant performance gap between MLLMs and human-level understanding.
+📊 **Performance Evaluation:** We evaluate 27 state-of-the-art MLLMs, including Gemini-2.5-Flash, Claude-4-Sonnet, and GPT-4o. Our findings highlight a significant performance gap between MLLMs and human-level understanding.
 
 🔍 **Decoding MLLM Shortcomings:** We pinpoint two primary failure modes in MLLMs: (1) inadequate cross-view correspondence in the presence of occlusions and (2) inaccurate estimation of rough camera poses.
 
