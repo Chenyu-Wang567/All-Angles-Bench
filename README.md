@@ -63,11 +63,14 @@ For any questions or feedback, feel free to contact [Chun-Hsiao Yeh](daniel_yeh@
 
  If you find All-Angles Bench useful in your research tasks or applications, please consider to give **star🌟** and kindly cite:
 ```
-@article{yeh2025seeing,
-  title={Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs},
-  author={Chun-Hsiao Yeh, Chenyu Wang, Shengbang Tong, Ta-Ying Cheng, Ruoyu Wang, Tianzhe Chu, Yuexiang Zhai, Yubei Chen, Shenghua Gao and Yi Ma},
-  journal={arXiv preprint arXiv:2504.15280},
-  year={2025}
+@inproceedings{yeh2026seeing,
+  title={Seeing from another perspective: Evaluating multi-view understanding in mllms},
+  author={Yeh, Chun-Hsiao and Wang, Chenyu and Tong, Shengbang and Cheng, Ta-Ying and Wang, Ruoyu and Chu, Tianzhe and Zhai, Yuexiang and Chen, Yubei and Gao, Shenghua and Ma, Yi},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={14},
+  pages={12000--12008},
+  year={2026}
 }
 ```
 
